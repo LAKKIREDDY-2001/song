@@ -1,0 +1,21 @@
+Vibestream Music Upload Folder
+==============================
+
+Place your physical .mp3 or .wav audio files in this directory! 
+Vite will automatically expose them under the static paths.
+
+How to reference them:
+--------------------
+1. Drag and drop your mp3 files right into this "/public/music" folder using your Google AI Studio file explorer.
+2. Open "/src/data/customSongs.ts".
+3. Add an entry matching your filename. For example, if you uploaded "my_song.mp3", configure your object like this:
+
+{
+  name: "My Custom Song",
+  artist: "Your Artist",
+  img: "img_custom",
+  audio: "my_song", // references public/music/my_song.mp3
+  imageUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=600",
+  category: "Custom",
+  durationStr: "3:45"
+}

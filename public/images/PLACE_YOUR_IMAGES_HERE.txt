@@ -1,0 +1,10 @@
+Vibestream Artwork Folder
+=========================
+
+Place your .jpg or .png album cover images in this directory!
+
+How to reference them:
+--------------------
+1. Upload your image (e.g., "my_cover.jpg") to this directory.
+2. In your song configuration within "/src/data/customSongs.ts", reference it using:
+   imageUrl: "/images/my_cover.jpg"
