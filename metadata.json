@@ -1,0 +1,6 @@
+{
+  "name": "Music Application",
+  "description": "A beautiful, fully-featured, edge-to-edge responsive music player with responsive visuals, playlist selection, repeat/shuffle, and fluid Web Audio fallback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
